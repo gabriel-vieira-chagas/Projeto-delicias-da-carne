@@ -61,22 +61,28 @@ nav{
 }
 
 main{
-  height: 100vh;
   width: 100%;
   display: flex;
 }
 
 #sessaocarnes{
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
+#sessaocarnes select{
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: white;
+  color: #8A0303;
+}
+
 #conteudosec{
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .cardproduto{
@@ -86,6 +92,7 @@ main{
   padding: 15px;
   margin: 20px;
   display: flex;
+  flex: 1 0 21%;
   flex-direction: column;
   align-items: center;
   gap: 15px;
