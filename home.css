@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --vermelho: #8A0303;
+  --verescuro: #480707;
+  --licorite: #1C0909;
+}
+
+header{
+  padding: 40px;
+  background-color: var(--verescuro);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.logoenome{
+  width: 320px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  color: white;
+}
+
+.boladao {
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a{
+  color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+#carrossel{
+  height: 70vh;
+  width: 100%;
+}
+
+section h2{
+  color: var(--vermelho);
+  font-size: 38px;
+}
+
+#secaocarnes{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nossascarnes{
+  margin: 40px;
+}
+
+#carnes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardcarne{
+  border: 1px solid var(--vermelho);
+  height: 300px;
+  width: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.cardcarne:hover{
+  transform: scale(1.08);
+  transition: .6s;
+}
+
+#carnes a{
+  margin: 30px;
+}
+
+#carnes a:hover{
+  text-decoration: none;
+}
+
+.cardcarne img{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.textocard{
+  color: var(--vermelho);
+  font-size: 25px;
+}
+
+#quemsomos{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quemsomos h2{
+  padding: 30px;
+}
+
+#apresentacao{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#apresentacao img{
+  width: 40vw;
+}
+
+#textoebotao{
+  width: 400px;
+}
+
+footer{
+  padding: 40px;
+  background-color: var(--verescuro);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+#containerfooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 800px;
+}
+
+footer h2{
+  color: white;
+  font-size: 30px;
+}
+
+.spanfooter{
+  color: grey;
+}
+
+.lifooter{
+  margin-top: 4px;
+  list-style-type: none;
+  color: white;
+}
+
+.lifooter img{
+  width: 27px;
+  margin-right: 5px;
+}
+
+.lifooter a:link{
+  color: white;
+}
+
+.lifooter a:visited{
+  color: white;
+}
+
+.ulfooter{
+  display: flex;
+  flex-flow: column;
+}
+
+.ulfooter .lifooter{
+  display: flex;
+  align-items: center;
+}

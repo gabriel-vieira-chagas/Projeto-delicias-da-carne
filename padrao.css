@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --vermelho: #8A0303;
+  --verescuro: #480707;
+  --licorite: #1C0909;
+}
+
+header{
+  padding: 40px;
+  background-color: var(--verescuro);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.logoenome{
+  height: 70px;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  color: white;
+}
+
+.boladao {
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+li a{
+  color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+main{
+  margin: 50px 0;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 80vw;
+  border: 4px dashed lightgray;
+  color: var(--vermelho);
+  padding: 40px;
+}
+
+.card h2{
+  color: var(--verescuro);
+  font-size: 32px;
+}
+
+.card h3{
+  color: var(--verescuro);
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.card p{
+  margin-top: 14px;
+  font-size: 18px;
+}
+
+textarea{
+  resize: none;
+}
+
+footer{
+  padding: 40px;
+  background-color: var(--verescuro);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+#containerfooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 800px;
+}
+
+footer h2{
+  color: white;
+  font-size: 30px;
+}
+
+.spanfooter{
+  color: grey;
+}
+
+.lifooter{
+  margin-top: 4px;
+  list-style-type: none;
+  color: white;
+}
+
+.lifooter img{
+  width: 27px;
+  margin-right: 5px;
+}
+
+.lifooter a:link{
+  color: white;
+}
+
+.lifooter a:visited{
+  color: white;
+}
+
+.ulfooter{
+  display: flex;
+  flex-flow: column;
+}
+
+.ulfooter .lifooter{
+  display: flex;
+  align-items: center;
+}

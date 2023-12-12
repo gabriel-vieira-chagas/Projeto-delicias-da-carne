@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --vermelho: #8A0303;
+  --verescuro: #480707;
+  --licorite: #1C0909;
+}
+
+header{
+  padding: 40px;
+  background-color: var(--verescuro);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.logoenome{
+  height: 70;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  color: white;
+}
+
+.boladao {
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+li a{
+  color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+main{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+#sessaocarnes{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#conteudosec{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.cardproduto{
+  border: 1px solid var(--vermelho);
+  height: 340px;
+  width: 250px;
+  padding: 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 19px;
+}
+
+.cardproduto img{
+  width: 200px;
+  height: 146px;
+}
+
+.cardproduto:hover{
+  transform: scale(1.08);
+  transition: .6s;
+}
+
+.cardproduto .nomecarne{
+  color: var(--verescuro);
+}
+
+.cardproduto .peso{
+  color: gray;
+}
+
+.cardproduto .preco{
+  color: var(--vermelho);
+}
+
+.cardproduto .botao{
+  color: white;
+  background-color: var(--verescuro);
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+footer{
+  padding: 40px;
+  background-color: var(--verescuro);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+#containerfooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 800px;
+}
+
+footer h2{
+  color: white;
+  font-size: 30px;
+}
+
+.spanfooter{
+  color: grey;
+}
+
+.lifooter{
+  margin-top: 4px;
+  list-style-type: none;
+  color: white;
+}
+
+.lifooter img{
+  width: 27px;
+  margin-right: 5px;
+}
+
+.lifooter a:link{
+  color: white;
+}
+
+.lifooter a:visited{
+  color: white;
+}
+
+.ulfooter{
+  display: flex;
+  flex-flow: column;
+}
+
+.ulfooter .lifooter{
+  display: flex;
+  align-items: center;
+}
